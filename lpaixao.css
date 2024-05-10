@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font-family: "montserrat", sans-serif;
+}
+h2 {
+	font-family: "Relaway", sans-serif;
+}
+section {
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-flex > div {
+    flex: 1 1 200px;
+    width: 25%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgb(205, 250, 255);
+	padding: 30px;
+}
+.container-flex > div:last-child {
+	margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+	.container-flex > div {
+		max-width: 100%;
+		margin-right: 0;
+	}
+}
+.menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	background: black;
+	color: white;
+	padding: 20px;
+	box-sizing:border-box;
+	overflow-y: auto;
+}
+.parallax {
+	background-image: url('p1_lfranco.jpeg');
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.parallax-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.section {
+	box-sizing: border-box;
+	padding: 60px 0;
+	overflow: hidden;
+}
+.container {
+	width: 100%;
+	max-width: 1320px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.foto {
+	max-width: 250px;
+	height: auto;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-radius: 45px;
+}
