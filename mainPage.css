@@ -1,2 +1,90 @@
 @charset "UTF-8";
 
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+picture {
+    background-size: cover;
+    position: absolute;
+}
+/*
+#lariPic {
+    background-image: url("p1_lfranco.jpeg");
+    left: 0%;
+}
+
+#lethPic {
+    background-image: url("p2_lpaixao.jpg");
+    right: 0%;
+}
+*/
+#lariSide, #lethSide {
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    width: 50vw;
+    height: 100vh;
+    border-radius: 0px;
+    color: antiquewhite;
+    position: sticky;
+}
+
+#lariSide {
+    background-image: linear-gradient(to left, black, black, RGB(0, 0, 0, 0));
+}
+
+#lethSide {
+    background-image: linear-gradient(to right, black, black, RGB(0, 0, 0, 0));
+}
+
+section {
+    width: 35%;
+    text-align: justify;
+    position: absolute;
+    top: 35vh;
+    justify-content: center;
+}
+
+#lariText {
+    right: 10vw;
+}
+
+#lethText {
+    left: 10vw;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    line-height: 1.4em;
+    padding: 20px;
+}
+button, a {
+    border: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0B2162;
+    color: aliceblue;
+    font-style: normal;
+    text-decoration: none;
+}
+
+button:hover {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}

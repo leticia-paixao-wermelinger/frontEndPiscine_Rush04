@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#lariPic {
+    background-image: url("p1_lfranco.jpeg");
+    left: 0%;
+}
+
+#lethPic {
+    background-image: url("p2_lpaixao.jpg");
+    right: 0%;
+}
