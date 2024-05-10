@@ -1,11 +1,26 @@
 @charset "UTF-8";
 
 #lariPic {
-    background-image: url("p1_lfranco.jpeg");
+    background-image: url("lfranco.jpg");
     left: 0%;
 }
 
 #lethPic {
-    background-image: url("1lpaixao.jpg");
+    background-image: url("1_lpaixao.jpg");
     right: 0%;
+}
+
+section {
+    width: 35%;
+    top: 35vh;
+}
+
+#lariText {
+    width: 40%;
+    right: 20px;
+}
+
+#lethText {
+    width: 40%;
+    left: 20px;
 }

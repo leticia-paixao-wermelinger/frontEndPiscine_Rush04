@@ -1,9 +1,17 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --preto-transp-forte: RGBA(1, 1, 1, 1);
+    --preto-transp-fraco: RGBA(1, 1, 1, 0.8);
+    --transp: RGBA(0, 0, 0, 0);
+}
 
 * {
     padding: 0%;
     margin: 0%;
     border: 0px;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -14,7 +22,7 @@ body {
 
 picture {
     background-size: cover;
-    position: absolute;
+    position: sticky;
 }
 /*
 #lariPic {
@@ -36,33 +44,26 @@ picture {
     border-radius: 0px;
     color: antiquewhite;
     position: sticky;
+    
 }
 
 #lariSide {
-    background-image: linear-gradient(to left, black, black, RGB(0, 0, 0, 0));
+    background-image: linear-gradient(to left, var(--preto-transp-forte), var(--preto-transp-fraco), var(--transp));
 }
 
 #lethSide {
-    background-image: linear-gradient(to right, black, black, RGB(0, 0, 0, 0));
+    border-left: 1px solid white;
+    background-image: linear-gradient(to right, var(--preto-transp-forte), var(--preto-transp-fraco), var(--transp));
 }
 
 section {
-    width: 35%;
     text-align: justify;
     position: absolute;
-    top: 35vh;
     justify-content: center;
 }
 
-#lariText {
-    right: 10vw;
-}
-
-#lethText {
-    left: 10vw;
-}
-
-h2 {
+h1 {
+    font-size: 38px;
     padding: 10px;
 }
 
@@ -70,6 +71,12 @@ p {
     line-height: 1.4em;
     padding: 20px;
 }
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
 button, a {
     border: 50px;
     padding: 5px;
