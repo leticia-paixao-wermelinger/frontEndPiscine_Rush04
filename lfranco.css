@@ -4,6 +4,10 @@ body {
 h2 {
 	font-family: "Relaway", sans-serif;
 }
+section {
+	padding: 60px 0;
+	overflow: hidden;
+}
 .menu{
 	position: fixed;
 	top: 0;
@@ -59,6 +63,13 @@ h2 {
 	background-color: #dce8f8;
 	height: 10px;
 }
+
+.contain{
+	display: block;
+	height: 60px;
+	background: none;
+	border-radius: 25%;
+}
 .skill {
 	display: block;
 	padding: 0;
@@ -68,14 +79,14 @@ h2 {
 	font-family: "Poppins", sans-serif;
 	color: #050d18;
 }
-.skill_bar {
+.percent {
+	float: right;
+	font-style: normal;
+	box-sizing: border-box;
+
+}.skill_bar {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	overflow: hidden;
-}
-.skills .progress .skill .percent {
-	float: right;
-	font-style: normal;
-	box-sizing: border-box;
 }
