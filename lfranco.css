@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: "montserrat", sans-serif;
 }
 h2 {
 	font-family: "Relaway", sans-serif;
@@ -17,9 +18,12 @@ section {
 
 .container-flex > div {
     flex: 1 1 200px;
-    max-width: calc(30% - 15px);
+    width: 25%;
     margin-right: 15px;
     margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgb(205, 250, 255);
+	padding: 30px;
 }
 .container-flex > div:last-child {
 	margin-right: 0;
@@ -80,4 +84,5 @@ section {
 	height: auto;
 	vertical-align: middle;
 	box-sizing: border-box;
+	border-radius: 45px;
 }
