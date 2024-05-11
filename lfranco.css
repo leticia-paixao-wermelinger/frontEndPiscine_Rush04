@@ -15,13 +15,12 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+	gap: 15px;
 }
 
 .container-flex > div {
     flex: 1 1 200px;
     max-width: calc(25% - 15px);
-    margin-right: 15px;
-    margin-bottom: 15px;
 	border-radius: 15px;
 	background-color: rgb(245, 245, 245);
 	padding: 30px;
